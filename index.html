@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shreyash Susar — Portfolio</title>
+  <meta name="description" content="Interdisciplinary Innovator — BCA & BAMS student, AI & Analytics enthusiast." />
+
+  <!-- Tailwind Play CDN (quick) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide icons (web) -->
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.244.0/dist/lucide.min.js"></script>
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> 
+  <style>
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in { animation: fade-in 0.5s ease-out; }
+  </style>
+</head>
+<body class="min-h-screen bg-black text-white antialiased">
+  <!-- Header / Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20"></div>
+    <div class="relative max-w-6xl mx-auto px-6 py-20">
+      <div class="text-center">
+        <div class="mb-6">
+          <div class="w-32 h-32 mx-auto bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center text-4xl font-bold shadow-2xl">
+            SS
+          </div>
+        </div>
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Shreyash Susar</h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-2">Interdisciplinary Innovator</p>
+        <p class="text-lg text-gray-400 mb-6">BCA Student | BAMS Student | AI & Analytics Enthusiast</p>
+
+        <div class="flex flex-wrap justify-center gap-4 mb-8">
+          <a href="mailto:shreyash8124@gmail.com" class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg hover:bg-white/20 transition">
+            <i data-lucide="mail"></i>
+            <span>shreyash8124@gmail.com</span>
+          </a>
+          <span class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg">
+            <i data-lucide="map-pin"></i>
+            <span>Jalna, Maharashtra, India</span>
+          </span>
+        </div>
+
+        <div class="flex justify-center gap-4">
+          <a href="https://linkedin.com/in/shreyash-susar" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition flex items-center gap-2">
+            <i data-lucide="linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="resume.pdf" class="bg-white/10 hover:bg-white/20 px-6 py-3 rounded-lg transition flex items-center gap-2" download>
+            <i data-lucide="download"></i>
+            <span>Download Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6">
+      <div id="nav-buttons" class="flex flex-wrap justify-center gap-1 py-4">
+        <button data-section="about" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base bg-purple-600 text-white">about</button>
+        <button data-section="education" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base text-gray-300 hover:bg-white/10">education</button>
+        <button data-section="certifications" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base text-gray-300 hover:bg-white/10">certifications</button>
+        <button data-section="skills" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base text-gray-300 hover:bg-white/10">skills</button>
+        <button data-section="strengths" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base text-gray-300 hover:bg-white/10">strengths</button>
+        <button data-section="interests" class="section-btn px-4 py-2 rounded-lg transition capitalize text-sm md:text-base text-gray-300 hover:bg-white/10">interests</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <!-- About -->
+    <section id="about" class="content-section animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="code"></i>
+        </div>
+        Professional Summary
+      </h2>
+      <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+        <p class="text-lg text-gray-300 leading-relaxed mb-4">I'm an interdisciplinary student pursuing dual Bachelor's degrees in Computer Applications (BCA) and Ayurvedic Medicine & Surgery (BAMS), combining technical expertise with holistic healthcare understanding.</p>
+        <p class="text-lg text-gray-300 leading-relaxed mb-4">Certified in Google Analytics and Generative AI, I have a passion for leveraging technology to solve complex problems. My unique educational background allows me to bridge the gap between traditional medicine and modern technology, bringing fresh perspectives to innovation in healthcare technology and AI applications.</p>
+        <p class="text-lg text-gray-300 leading-relaxed">I demonstrate the ability to think creatively, learn rapidly, and bridge diverse domains to drive innovation. My approach combines analytical thinking from medical studies with technical problem-solving skills, enabling me to tackle challenges from multiple angles and create user-centric solutions.</p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="content-section hidden animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="graduation-cap"></i>
+        </div>
+        Education
+      </h2>
+      <div class="space-y-6">
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition">
+          <h3 class="text-2xl font-bold text-purple-400 mb-2">Bachelor of Computer Applications (BCA)</h3>
+          <p class="text-xl text-gray-300 mb-1">DY Patil University</p>
+          <p class="text-gray-400 mb-2">Navi Mumbai, Maharashtra</p>
+          <p class="text-gray-400 mb-3 font-semibold">July 2025 – August 2028</p>
+          <p class="text-gray-300 leading-relaxed">Pursuing comprehensive computer science curriculum with focus on software development and emerging technologies.</p>
+        </div>
+
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition">
+          <h3 class="text-2xl font-bold text-purple-400 mb-2">Bachelor of Ayurvedic Medicine & Surgery (BAMS)</h3>
+          <p class="text-xl text-gray-300 mb-1">COER University</p>
+          <p class="text-gray-400 mb-2">Roorkee, Uttarakhand</p>
+          <p class="text-gray-400 mb-3 font-semibold">April 2022 – August 2028</p>
+          <p class="text-gray-300 leading-relaxed">Unique interdisciplinary background combining traditional medicine with modern scientific methodology. Developed analytical thinking and research skills through evidence-based medical studies.</p>
+        </div>
+
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition">
+          <h3 class="text-2xl font-bold text-purple-400 mb-2">Higher Secondary Certificate (XII)</h3>
+          <p class="text-xl text-gray-300 mb-1">J.E.S College</p>
+          <p class="text-gray-400 mb-2">Jalna, Maharashtra</p>
+          <p class="text-gray-400 mb-3 font-semibold">Completed February 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="content-section hidden animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="award"></i>
+        </div>
+        Certifications & Learning
+      </h2>
+      <div class="space-y-6">
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-purple-400">Google Analytics Certification</h3>
+              <p class="text-xl text-gray-300">Google</p>
+            </div>
+            <span class="text-gray-400 mt-2 md:mt-0">2025</span>
+          </div>
+          <p class="text-gray-300 leading-relaxed">Mastered tracking user behavior, analyzing website performance, and deriving actionable insights. Demonstrated proficiency in leveraging data to optimize digital experiences and drive decisions.</p>
+        </div>
+
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/10 transition">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+            <div>
+              <h3 class="text-2xl font-bold text-purple-400">Introduction to Generative AI</h3>
+              <p class="text-xl text-gray-300">Google Cloud</p>
+            </div>
+            <span class="text-gray-400 mt-2 md:mt-0">2025</span>
+          </div>
+          <p class="text-gray-300 leading-relaxed">Explored foundation models, prompt engineering, and practical applications of generative AI. Developed insights into AI ethics, model capabilities, and integration strategies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="content-section hidden animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="code"></i>
+        </div>
+        Technical Skills
+      </h2>
+      <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+        <div class="mb-6">
+          <h3 class="text-xl font-semibold text-purple-400 mb-3">AI & Machine Learning</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-lg font-medium">Generative AI</span>
+            <span class="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-lg font-medium">LLMs</span>
+            <span class="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-lg font-medium">Prompt Engineering</span>
+            <span class="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-lg font-medium">AI Applications</span>
+          </div>
+        </div>
+        <div class="mb-6">
+          <h3 class="text-xl font-semibold text-purple-400 mb-3">Analytics & Data</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 rounded-lg font-medium">Google Analytics</span>
+            <span class="bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 rounded-lg font-medium">Data Analysis</span>
+            <span class="bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 rounded-lg font-medium">User Behavior Tracking</span>
+            <span class="bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 rounded-lg font-medium">Performance Metrics</span>
+          </div>
+        </div>
+        <div class="mb-6">
+          <h3 class="text-xl font-semibold text-purple-400 mb-3">Programming & Development</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gradient-to-r from-cyan-600 to-teal-600 px-4 py-2 rounded-lg font-medium">Software Development</span>
+            <span class="bg-gradient-to-r from-cyan-600 to-teal-600 px-4 py-2 rounded-lg font-medium">Problem Solving</span>
+            <span class="bg-gradient-to-r from-cyan-600 to-teal-600 px-4 py-2 rounded-lg font-medium">Algorithm Design</span>
+            <span class="bg-gradient-to-r from-cyan-600 to-teal-600 px-4 py-2 rounded-lg font-medium">System Thinking</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-purple-400 mb-3">Domain Expertise</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gradient-to-r from-teal-600 to-green-600 px-4 py-2 rounded-lg font-medium">Healthcare Technology</span>
+            <span class="bg-gradient-to-r from-teal-600 to-green-600 px-4 py-2 rounded-lg font-medium">Ayurvedic Healthcare Systems</span>
+            <span class="bg-gradient-to-r from-teal-600 to-green-600 px-4 py-2 rounded-lg font-medium">Interdisciplinary Innovation</span>
+            <span class="bg-gradient-to-r from-teal-600 to-green-600 px-4 py-2 rounded-lg font-medium">Research</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strengths -->
+    <section id="strengths" class="content-section hidden animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="brain"></i>
+        </div>
+        Key Strengths & Differentiators
+      </h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition hover:scale-105 transform duration-300">
+          <h3 class="text-xl font-bold text-purple-400 mb-3">Interdisciplinary Thinking</h3>
+          <p class="text-gray-300 leading-relaxed">Unique ability to bridge technology and healthcare, bringing fresh perspectives to product development and user-centric design that considers holistic human needs.</p>
+        </div>
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition hover:scale-105 transform duration-300">
+          <h3 class="text-xl font-bold text-purple-400 mb-3">Continuous Learner</h3>
+          <p class="text-gray-300 leading-relaxed">Successfully managing dual degrees across vastly different domains while maintaining Google certifications, demonstrating exceptional time management and intellectual agility.</p>
+        </div>
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition hover:scale-105 transform duration-300">
+          <h3 class="text-xl font-bold text-purple-400 mb-3">AI & Analytics Expertise</h3>
+          <p class="text-gray-300 leading-relaxed">Hands-on knowledge of Generative AI and Google Analytics positions me to contribute to data-driven decision making and AI-powered product innovation.</p>
+        </div>
+        <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition hover:scale-105 transform duration-300">
+          <h3 class="text-xl font-bold text-purple-400 mb-3">Creative Problem Solver</h3>
+          <p class="text-gray-300 leading-relaxed">Approach challenges from multiple angles by synthesizing insights from diverse fields, enabling innovative solutions to complex technical and user experience problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests" class="content-section hidden animate-fade-in">
+      <h2 class="text-4xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
+          <i data-lucide="trending-up"></i>
+        </div>
+        Areas of Interest
+      </h2>
+      <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 px-6 py-3 rounded-lg text-lg font-medium shadow-lg">Artificial Intelligence</span>
+          <span class="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 px-6 py-3 rounded-lg text-lg font-medium shadow-lg">Machine Learning</span>
+          <span class="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 px-6 py-3 rounded-lg text-lg font-medium shadow-lg">Healthcare Technology</span>
+          <span class="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 px-6 py-3 rounded-lg text-lg font-medium shadow-lg">Data Analytics</span>
+        </div>
+        <div class="mt-8 p-6 bg-white/5 rounded-xl border border-purple-500/30">
+          <p class="text-gray-300 leading-relaxed">Passionate about exploring the intersection of technology and healthcare, with a focus on leveraging AI and data analytics to create innovative solutions that improve human wellbeing. Committed to staying current with emerging trends and contributing to the evolution of digital health and intelligent systems.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black/50 border-t border-white/10 mt-20">
+    <div class="max-w-6xl mx-auto px-6 py-8 text-center text-gray-400">
+      <p>© 2024 Shreyash Susar. All rights reserved.</p>
+      <p class="mt-2">Bridging Technology and Healthcare for Innovation</p>
+    </div>
+  </footer>
+
+  <script>
+    // Replace lucide placeholders
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.lucide) lucide.replace();
+
+      // Simple nav logic to show/hide sections and active button
+      const buttons = document.querySelectorAll('.section-btn');
+      const sections = document.querySelectorAll('.content-section');
+
+      function setActive(sectionId) {
+        sections.forEach(s => s.classList.toggle('hidden', s.id !== sectionId));
+        buttons.forEach(b => b.classList.toggle('bg-purple-600', b.dataset.section === sectionId));
+        buttons.forEach(b => b.classList.toggle('text-white', b.dataset.section === sectionId));
+        buttons.forEach(b => b.classList.toggle('text-gray-300', b.dataset.section !== sectionId));
+      }
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => setActive(btn.dataset.section));
+      });
+
+      // default
+      setActive('about');
+    });
+  </script>
+</body>
+</html>
